@@ -13,6 +13,10 @@ public class CuentaDeAhorro extends CuentaComun {
 		return 0;
 	}
 	
+	public double saldoNegativo() {
+		//tiene otro codigo!
+		return this.getSaldo() - 10; 
+	}
 	
 
 }
