@@ -12,7 +12,9 @@ public class CuentaDeAhorro extends CuentaComun {
 		// TODO Auto-generated method stub
 		return 0;
 	}
-	
+	public double saldoNegativo() {
+		return this.saldoActual() - 10;
+	}
 	
 
 }
